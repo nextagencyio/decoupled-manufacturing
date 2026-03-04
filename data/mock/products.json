@@ -1,0 +1,207 @@
+{
+  "data": {
+    "nodeProductLines": {
+      "__typename": "NodeProductLineConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProductLine",
+          "id": "product-line-1",
+          "title": "Precision Machined Components",
+          "path": "/products/precision-machined-components",
+          "body": {
+            "processed": "<p>Our CNC machining division produces high-precision turned and milled components from a wide range of metals and engineered plastics. With tolerances as tight as +/-0.0005\", we serve the most demanding applications in aerospace, defense, and medical industries.</p><h2>Capabilities</h2><p>Our machining centers include 5-axis CNC mills, multi-axis CNC lathes, and Swiss-type screw machines capable of handling parts from 0.020\" to 24\" in diameter. In-process inspection using CMM and optical measurement ensures every part meets specification.</p><h2>Materials Expertise</h2><p>We have extensive experience machining titanium, Inconel, stainless steels, aluminum alloys, brass, copper, and engineering plastics including PEEK, Ultem, and Delrin.</p>",
+            "summary": "Our CNC machining division produces high-precision turned and milled components from a wide range of metals and engineered plastics. With tolerances as tight as +/-0.0005\", we serve the most demanding"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+            "alt": "Precision machined metal components on a workbench",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Engine Components",
+            "Hydraulic Fittings",
+            "Surgical Instruments",
+            "Sensor Housings",
+            "Valve Bodies"
+          ],
+          "materials": [
+            "Titanium",
+            "Inconel",
+            "Stainless Steel",
+            "Aluminum 7075",
+            "PEEK"
+          ],
+          "leadTime": "4-6 weeks standard",
+          "minOrder": "25 pieces",
+          "industry": [
+            {
+              "id": "Aerospace",
+              "name": "Aerospace"
+            },
+            {
+              "id": "Defense",
+              "name": "Defense"
+            },
+            {
+              "id": "Medical",
+              "name": "Medical"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProductLine",
+          "id": "product-line-2",
+          "title": "Sheet Metal Fabrication & Assemblies",
+          "path": "/products/sheet-metal-fabrication",
+          "body": {
+            "processed": "<p>Our sheet metal division offers complete fabrication services from prototyping through high-volume production. We specialize in complex enclosures, chassis, brackets, and structural assemblies for electronic, industrial, and defense applications.</p><h2>Processes</h2><p>Our fabrication capabilities include laser cutting, waterjet cutting, CNC punching, forming and bending, welding (TIG, MIG, spot), hardware insertion, and powder coat finishing. We offer full mechanical assembly services with wiring and testing.</p><h2>Design Support</h2><p>Our engineering team provides DFM (Design for Manufacturability) analysis to optimize your designs for cost and quality. We work with SolidWorks, CATIA, and all major CAD formats.</p>",
+            "summary": "Our sheet metal division offers complete fabrication services from prototyping through high-volume production. We specialize in complex enclosures, chassis, brackets, and structural assemblies for ele"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+            "alt": "Sheet metal fabrication with laser cutting machine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Electronic Enclosures",
+            "Structural Brackets",
+            "Equipment Chassis",
+            "Control Panels",
+            "Heat Shields"
+          ],
+          "materials": [
+            "Mild Steel",
+            "Stainless Steel 304/316",
+            "Aluminum 5052/6061",
+            "Copper",
+            "Galvanized Steel"
+          ],
+          "leadTime": "3-5 weeks standard",
+          "minOrder": "10 pieces",
+          "industry": [
+            {
+              "id": "Industrial",
+              "name": "Industrial"
+            },
+            {
+              "id": "Energy",
+              "name": "Energy"
+            },
+            {
+              "id": "Defense",
+              "name": "Defense"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProductLine",
+          "id": "product-line-3",
+          "title": "Investment Castings & Forgings",
+          "path": "/products/castings-and-forgings",
+          "body": {
+            "processed": "<p>Apex produces investment castings and closed-die forgings for applications where strength, reliability, and near-net-shape geometry are critical. Our casting and forging capabilities serve the energy, marine, and automotive sectors.</p><h2>Investment Casting</h2><p>Our investment casting foundry produces parts weighing from ounces to over 50 pounds in a variety of ferrous and non-ferrous alloys. We offer rapid prototyping using 3D-printed wax patterns to accelerate development timelines.</p><h2>Forging</h2><p>Our forging operation produces closed-die forgings in carbon steel, alloy steel, stainless steel, and aluminum. Forgings offer superior grain flow and mechanical properties compared to castings or machined bar stock.</p>",
+            "summary": "Apex produces investment castings and closed-die forgings for applications where strength, reliability, and near-net-shape geometry are critical. Our casting and forging capabilities serve the energy,"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+            "alt": "Molten metal being poured into casting mold",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Turbine Blades",
+            "Pump Impellers",
+            "Automotive Suspension",
+            "Marine Hardware",
+            "Oil & Gas Fittings"
+          ],
+          "materials": [
+            "17-4 PH Stainless",
+            "Carbon Steel",
+            "Aluminum A356",
+            "Inconel 718",
+            "Bronze"
+          ],
+          "leadTime": "8-12 weeks (tooling included)",
+          "minOrder": "50 pieces",
+          "industry": [
+            {
+              "id": "Energy",
+              "name": "Energy"
+            },
+            {
+              "id": "Automotive",
+              "name": "Automotive"
+            },
+            {
+              "id": "Marine",
+              "name": "Marine"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

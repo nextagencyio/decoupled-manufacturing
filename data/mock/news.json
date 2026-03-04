@@ -1,0 +1,146 @@
+{
+  "data": {
+    "nodeNewses": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-1",
+          "title": "Phoenix Facility Expansion Adds 25,000 Square Feet",
+          "path": "/news/phoenix-expansion-complete",
+          "body": {
+            "processed": "<p>Apex Precision Manufacturing has completed a $12 million expansion of our Phoenix fabrication and assembly center, adding 25,000 square feet of production space and 60 new jobs.</p><h2>New Capabilities</h2><p>The expansion includes a dedicated cleanroom assembly area for aerospace avionics enclosures, a second automated powder coat line, and additional welding stations with robotic assistance. These investments directly respond to growing demand from our aerospace and defense customers.</p><p>\"This expansion positions us to capture significant growth in the defense electronics segment,\" said CEO Robert Tanaka. \"Our customers need a domestic supplier with the capacity and certifications to handle their most sensitive programs.\"</p><h2>Community Impact</h2><p>The expansion creates 60 new manufacturing positions with an average wage of $28/hour plus benefits, reinforcing our commitment to well-paying jobs in the Phoenix metropolitan area.</p>",
+            "summary": "Apex Precision Manufacturing has completed a $12 million expansion of our Phoenix fabrication and assembly center, adding 25,000 square feet of production space and 60 new jobs.New CapabilitiesThe exp"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "New manufacturing facility construction",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Apex Communications",
+          "tags": [
+            {
+              "id": "expansion",
+              "name": "expansion"
+            },
+            {
+              "id": "press-release",
+              "name": "press-release"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-2",
+          "title": "2025 Sustainability Report: 35% Reduction in Carbon Emissions",
+          "path": "/news/sustainability-report-2025",
+          "body": {
+            "processed": "<p>We are pleased to publish our 2025 Sustainability Report, highlighting significant progress toward our environmental goals. Key achievements include a 35% reduction in Scope 1 and Scope 2 carbon emissions compared to our 2020 baseline.</p><h2>Key Achievements</h2><ul><li>Installed 2MW rooftop solar array at our Dayton facility</li><li>Converted 100% of coolant systems to water-soluble, non-toxic formulations</li><li>Reduced scrap metal waste by 22% through improved nesting software</li><li>Achieved zero waste-to-landfill at our Phoenix facility</li></ul><p>\"Manufacturing has a responsibility to minimize its environmental footprint,\" said VP of Operations Laura Kim. \"These results show that sustainability and productivity can go hand in hand.\"</p>",
+            "summary": "We are pleased to publish our 2025 Sustainability Report, highlighting significant progress toward our environmental goals. Key achievements include a 35% reduction in Scope 1 and Scope 2 carbon emiss"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+            "alt": "Solar panels on an industrial facility roof",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Laura Kim",
+          "tags": [
+            {
+              "id": "sustainability",
+              "name": "sustainability"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-3",
+          "title": "Apex Apprenticeship Program Recognized by U.S. Department of Labor",
+          "path": "/news/apprenticeship-program-recognition",
+          "body": {
+            "processed": "<p>The U.S. Department of Labor has officially recognized the Apex Manufacturing Apprenticeship Program as a Registered Apprenticeship, certifying that our training meets national standards for quality and rigor.</p><h2>Program Overview</h2><p>The four-year program combines paid on-the-job training with related classroom instruction at Sinclair Community College. Apprentices rotate through machining, fabrication, quality inspection, and manufacturing engineering, earning nationally recognized journeyman credentials upon completion.</p><p>Since launching in 2019, the program has graduated 28 apprentices with a 94% retention rate. Starting wages begin at $18/hour and increase to over $32/hour at program completion.</p><p>\"Finding skilled machinists and fabricators is one of the biggest challenges in American manufacturing,\" said HR Director James Park. \"Our apprenticeship program is building the pipeline we need to grow.\"</p>",
+            "summary": "The U.S. Department of Labor has officially recognized the Apex Manufacturing Apprenticeship Program as a Registered Apprenticeship, certifying that our training meets national standards for quality a"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+            "alt": "Manufacturing apprentice working with CNC machine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "James Park",
+          "tags": [
+            {
+              "id": "award",
+              "name": "award"
+            },
+            {
+              "id": "innovation",
+              "name": "innovation"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

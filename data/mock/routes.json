@@ -1,0 +1,800 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Apex Precision Manufacturing",
+          "path": "/homepage",
+          "heroTitle": "Precision Engineered. Globally Trusted.",
+          "heroSubtitle": "Advanced Manufacturing Solutions for Critical Industries",
+          "heroDescription": {
+            "processed": "<p>From aerospace components to medical devices, Apex Precision Manufacturing delivers tight-tolerance parts and assemblies that meet the most demanding specifications. ISO 9001 and AS9100 certified across all facilities.</p>",
+            "summary": "From aerospace components to medical devices, Apex Precision Manufacturing delivers tight-tolerance parts and assemblies that meet the most demanding specifications. ISO 9001 and AS9100 certified acro"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+            "alt": "CNC machining center producing precision metal parts",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "52",
+              "label": "Years in Business"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-employees",
+              "title": "",
+              "number": "1,200+",
+              "label": "Employees"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-facilities",
+              "title": "",
+              "number": "4",
+              "label": "Facilities"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "30+",
+              "label": "Countries Served"
+            }
+          ],
+          "featuredItemsTitle": "Our Product Lines",
+          "ctaTitle": "Request a Quote",
+          "ctaDescription": {
+            "processed": "<p>Our engineering team is ready to review your specifications and provide a competitive quote. From prototype to full production, we have the capacity and expertise to deliver.</p>",
+            "summary": "Our engineering team is ready to review your specifications and provide a competitive quote. From prototype to full production, we have the capacity and expertise to deliver."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Capabilities"
+        }
+      }
+    }
+  },
+  "/products/precision-machined-components": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProductLine",
+          "id": "product-line-1",
+          "title": "Precision Machined Components",
+          "path": "/products/precision-machined-components",
+          "body": {
+            "processed": "<p>Our CNC machining division produces high-precision turned and milled components from a wide range of metals and engineered plastics. With tolerances as tight as +/-0.0005\", we serve the most demanding applications in aerospace, defense, and medical industries.</p><h2>Capabilities</h2><p>Our machining centers include 5-axis CNC mills, multi-axis CNC lathes, and Swiss-type screw machines capable of handling parts from 0.020\" to 24\" in diameter. In-process inspection using CMM and optical measurement ensures every part meets specification.</p><h2>Materials Expertise</h2><p>We have extensive experience machining titanium, Inconel, stainless steels, aluminum alloys, brass, copper, and engineering plastics including PEEK, Ultem, and Delrin.</p>",
+            "summary": "Our CNC machining division produces high-precision turned and milled components from a wide range of metals and engineered plastics. With tolerances as tight as +/-0.0005\", we serve the most demanding"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+            "alt": "Precision machined metal components on a workbench",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Engine Components",
+            "Hydraulic Fittings",
+            "Surgical Instruments",
+            "Sensor Housings",
+            "Valve Bodies"
+          ],
+          "materials": [
+            "Titanium",
+            "Inconel",
+            "Stainless Steel",
+            "Aluminum 7075",
+            "PEEK"
+          ],
+          "leadTime": "4-6 weeks standard",
+          "minOrder": "25 pieces",
+          "industry": [
+            {
+              "id": "Aerospace",
+              "name": "Aerospace"
+            },
+            {
+              "id": "Defense",
+              "name": "Defense"
+            },
+            {
+              "id": "Medical",
+              "name": "Medical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/products/sheet-metal-fabrication": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProductLine",
+          "id": "product-line-2",
+          "title": "Sheet Metal Fabrication & Assemblies",
+          "path": "/products/sheet-metal-fabrication",
+          "body": {
+            "processed": "<p>Our sheet metal division offers complete fabrication services from prototyping through high-volume production. We specialize in complex enclosures, chassis, brackets, and structural assemblies for electronic, industrial, and defense applications.</p><h2>Processes</h2><p>Our fabrication capabilities include laser cutting, waterjet cutting, CNC punching, forming and bending, welding (TIG, MIG, spot), hardware insertion, and powder coat finishing. We offer full mechanical assembly services with wiring and testing.</p><h2>Design Support</h2><p>Our engineering team provides DFM (Design for Manufacturability) analysis to optimize your designs for cost and quality. We work with SolidWorks, CATIA, and all major CAD formats.</p>",
+            "summary": "Our sheet metal division offers complete fabrication services from prototyping through high-volume production. We specialize in complex enclosures, chassis, brackets, and structural assemblies for ele"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+            "alt": "Sheet metal fabrication with laser cutting machine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Electronic Enclosures",
+            "Structural Brackets",
+            "Equipment Chassis",
+            "Control Panels",
+            "Heat Shields"
+          ],
+          "materials": [
+            "Mild Steel",
+            "Stainless Steel 304/316",
+            "Aluminum 5052/6061",
+            "Copper",
+            "Galvanized Steel"
+          ],
+          "leadTime": "3-5 weeks standard",
+          "minOrder": "10 pieces",
+          "industry": [
+            {
+              "id": "Industrial",
+              "name": "Industrial"
+            },
+            {
+              "id": "Energy",
+              "name": "Energy"
+            },
+            {
+              "id": "Defense",
+              "name": "Defense"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/products/castings-and-forgings": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProductLine",
+          "id": "product-line-3",
+          "title": "Investment Castings & Forgings",
+          "path": "/products/castings-and-forgings",
+          "body": {
+            "processed": "<p>Apex produces investment castings and closed-die forgings for applications where strength, reliability, and near-net-shape geometry are critical. Our casting and forging capabilities serve the energy, marine, and automotive sectors.</p><h2>Investment Casting</h2><p>Our investment casting foundry produces parts weighing from ounces to over 50 pounds in a variety of ferrous and non-ferrous alloys. We offer rapid prototyping using 3D-printed wax patterns to accelerate development timelines.</p><h2>Forging</h2><p>Our forging operation produces closed-die forgings in carbon steel, alloy steel, stainless steel, and aluminum. Forgings offer superior grain flow and mechanical properties compared to castings or machined bar stock.</p>",
+            "summary": "Apex produces investment castings and closed-die forgings for applications where strength, reliability, and near-net-shape geometry are critical. Our casting and forging capabilities serve the energy,"
+          },
+          "productImage": {
+            "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+            "alt": "Molten metal being poured into casting mold",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "applications": [
+            "Turbine Blades",
+            "Pump Impellers",
+            "Automotive Suspension",
+            "Marine Hardware",
+            "Oil & Gas Fittings"
+          ],
+          "materials": [
+            "17-4 PH Stainless",
+            "Carbon Steel",
+            "Aluminum A356",
+            "Inconel 718",
+            "Bronze"
+          ],
+          "leadTime": "8-12 weeks (tooling included)",
+          "minOrder": "50 pieces",
+          "industry": [
+            {
+              "id": "Energy",
+              "name": "Energy"
+            },
+            {
+              "id": "Automotive",
+              "name": "Automotive"
+            },
+            {
+              "id": "Marine",
+              "name": "Marine"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/facilities/headquarters-dayton": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFacility",
+          "id": "facility-1",
+          "title": "Dayton Headquarters & Machining Center",
+          "path": "/facilities/headquarters-dayton",
+          "body": {
+            "processed": "<p>Our flagship facility in Dayton, Ohio houses corporate headquarters, engineering, and our primary precision machining operations. This facility was expanded in 2019 with a new 40,000 sq. ft. addition dedicated to 5-axis machining and quality inspection.</p><h2>Equipment</h2><ul><li>22 CNC machining centers (3, 4, and 5-axis)</li><li>14 CNC lathes including Swiss-type</li><li>Zeiss CMM with PH20 scanning probe</li><li>Keyence optical measurement system</li><li>Surface finish measurement and hardness testing</li></ul><p>The Dayton facility operates two shifts, five days a week, with weekend overtime capacity for urgent orders.</p>",
+            "summary": "Our flagship facility in Dayton, Ohio houses corporate headquarters, engineering, and our primary precision machining operations. This facility was expanded in 2019 with a new 40,000 sq. ft. addition "
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+            "alt": "Modern manufacturing facility exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Dayton, Ohio",
+          "squareFootage": "120,000 sq. ft.",
+          "employees": "485",
+          "capabilities": [
+            "5-Axis CNC Milling",
+            "CNC Turning",
+            "Swiss Machining",
+            "CMM Inspection",
+            "Surface Treatment"
+          ],
+          "yearEstablished": "1974"
+        }
+      }
+    }
+  },
+  "/facilities/phoenix-fabrication": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFacility",
+          "id": "facility-2",
+          "title": "Phoenix Fabrication & Assembly Center",
+          "path": "/facilities/phoenix-fabrication",
+          "body": {
+            "processed": "<p>Our Phoenix, Arizona facility specializes in sheet metal fabrication, mechanical assembly, and finishing services. Strategically located to serve the growing aerospace and defense industries in the Southwest.</p><h2>Equipment</h2><ul><li>Trumpf 5000 fiber laser cutting system</li><li>Flow waterjet with 5-axis cutting head</li><li>Amada press brakes with robotic bending</li><li>Complete TIG/MIG welding stations</li><li>Automated powder coat line</li></ul><p>The Phoenix facility achieved AS9100 certification in 2018 and processes over 2 million parts annually.</p>",
+            "summary": "Our Phoenix, Arizona facility specializes in sheet metal fabrication, mechanical assembly, and finishing services. Strategically located to serve the growing aerospace and defense industries in the So"
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80",
+            "alt": "Interior of a fabrication facility with machinery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Phoenix, Arizona",
+          "squareFootage": "85,000 sq. ft.",
+          "employees": "310",
+          "capabilities": [
+            "Laser Cutting",
+            "Waterjet Cutting",
+            "CNC Bending",
+            "Welding",
+            "Powder Coating",
+            "Assembly"
+          ],
+          "yearEstablished": "2003"
+        }
+      }
+    }
+  },
+  "/facilities/houston-casting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFacility",
+          "id": "facility-3",
+          "title": "Houston Casting & Forging Facility",
+          "path": "/facilities/houston-casting",
+          "body": {
+            "processed": "<p>Our Houston, Texas facility houses our investment casting foundry and closed-die forging operations. Located near the energy industry hub, this facility serves oil and gas, petrochemical, and marine customers worldwide.</p><h2>Equipment</h2><ul><li>Investment casting capacity to 50 lbs</li><li>Vacuum induction melting for superalloys</li><li>3,000-ton forging press</li><li>Complete heat treatment capability</li><li>Non-destructive testing (X-ray, FPI, MPI)</li></ul>",
+            "summary": "Our Houston, Texas facility houses our investment casting foundry and closed-die forging operations. Located near the energy industry hub, this facility serves oil and gas, petrochemical, and marine c"
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80",
+            "alt": "Industrial foundry with glowing molten metal",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Houston, Texas",
+          "squareFootage": "95,000 sq. ft.",
+          "employees": "275",
+          "capabilities": [
+            "Investment Casting",
+            "Closed-Die Forging",
+            "Heat Treatment",
+            "NDT Inspection",
+            "Alloy Development"
+          ],
+          "yearEstablished": "1998"
+        }
+      }
+    }
+  },
+  "/certifications/iso-9001": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCertification",
+          "id": "cert-1",
+          "title": "ISO 9001:2015",
+          "path": "/certifications/iso-9001",
+          "body": {
+            "processed": "<p>ISO 9001:2015 is the international standard for quality management systems (QMS). Our certification covers the design, manufacture, and delivery of precision machined components, fabricated assemblies, castings, and forgings across all Apex facilities.</p><p>This certification demonstrates our commitment to consistently meeting customer requirements, enhancing satisfaction, and driving continual improvement in our processes.</p>",
+            "summary": "ISO 9001:2015 is the international standard for quality management systems (QMS). Our certification covers the design, manufacture, and delivery of precision machined components, fabricated assemblies"
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Quality management certification document",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "Bureau Veritas",
+          "certNumber": "US-QMS-2024-08471",
+          "validThrough": "December 2027",
+          "scope": "All facilities - Design, manufacture, and delivery of precision components and assemblies"
+        }
+      }
+    }
+  },
+  "/certifications/as9100": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCertification",
+          "id": "cert-2",
+          "title": "AS9100 Rev D",
+          "path": "/certifications/as9100",
+          "body": {
+            "processed": "<p>AS9100 Rev D is the internationally recognized quality management standard for the aviation, space, and defense industries. This certification is required by most aerospace OEMs and Tier 1 suppliers, and demonstrates our ability to meet the stringent quality and traceability requirements of these critical industries.</p><p>Our AS9100 certification covers the Dayton and Phoenix facilities, encompassing precision machining, fabrication, and assembly operations for aerospace and defense applications.</p>",
+            "summary": "AS9100 Rev D is the internationally recognized quality management standard for the aviation, space, and defense industries. This certification is required by most aerospace OEMs and Tier 1 suppliers, "
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "alt": "Aerospace manufacturing quality inspection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "SAI Global",
+          "certNumber": "AS-2023-05192",
+          "validThrough": "September 2026",
+          "scope": "Dayton and Phoenix facilities - Precision machining and fabrication for aerospace and defense"
+        }
+      }
+    }
+  },
+  "/certifications/itar-registered": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCertification",
+          "id": "cert-3",
+          "title": "ITAR Registered",
+          "path": "/certifications/itar-registered",
+          "body": {
+            "processed": "<p>Apex Precision Manufacturing is registered with the U.S. State Department under the International Traffic in Arms Regulations (ITAR). This registration authorizes us to manufacture defense articles and provide defense services as defined by the U.S. Munitions List.</p><p>All employees with access to ITAR-controlled data receive regular training on compliance requirements. Our facilities maintain physical and cybersecurity controls that meet NIST SP 800-171 standards.</p>",
+            "summary": "Apex Precision Manufacturing is registered with the U.S. State Department under the International Traffic in Arms Regulations (ITAR). This registration authorizes us to manufacture defense articles an"
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Secure defense manufacturing environment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "U.S. Department of State, DDTC",
+          "certNumber": "M-29847",
+          "validThrough": "July 2027",
+          "scope": "All facilities - Manufacture of defense articles per USML Categories IV, X, and XI"
+        }
+      }
+    }
+  },
+  "/news/phoenix-expansion-complete": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-1",
+          "title": "Phoenix Facility Expansion Adds 25,000 Square Feet",
+          "path": "/news/phoenix-expansion-complete",
+          "body": {
+            "processed": "<p>Apex Precision Manufacturing has completed a $12 million expansion of our Phoenix fabrication and assembly center, adding 25,000 square feet of production space and 60 new jobs.</p><h2>New Capabilities</h2><p>The expansion includes a dedicated cleanroom assembly area for aerospace avionics enclosures, a second automated powder coat line, and additional welding stations with robotic assistance. These investments directly respond to growing demand from our aerospace and defense customers.</p><p>\"This expansion positions us to capture significant growth in the defense electronics segment,\" said CEO Robert Tanaka. \"Our customers need a domestic supplier with the capacity and certifications to handle their most sensitive programs.\"</p><h2>Community Impact</h2><p>The expansion creates 60 new manufacturing positions with an average wage of $28/hour plus benefits, reinforcing our commitment to well-paying jobs in the Phoenix metropolitan area.</p>",
+            "summary": "Apex Precision Manufacturing has completed a $12 million expansion of our Phoenix fabrication and assembly center, adding 25,000 square feet of production space and 60 new jobs.New CapabilitiesThe exp"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "New manufacturing facility construction",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Apex Communications",
+          "tags": [
+            {
+              "id": "expansion",
+              "name": "expansion"
+            },
+            {
+              "id": "press-release",
+              "name": "press-release"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/sustainability-report-2025": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-2",
+          "title": "2025 Sustainability Report: 35% Reduction in Carbon Emissions",
+          "path": "/news/sustainability-report-2025",
+          "body": {
+            "processed": "<p>We are pleased to publish our 2025 Sustainability Report, highlighting significant progress toward our environmental goals. Key achievements include a 35% reduction in Scope 1 and Scope 2 carbon emissions compared to our 2020 baseline.</p><h2>Key Achievements</h2><ul><li>Installed 2MW rooftop solar array at our Dayton facility</li><li>Converted 100% of coolant systems to water-soluble, non-toxic formulations</li><li>Reduced scrap metal waste by 22% through improved nesting software</li><li>Achieved zero waste-to-landfill at our Phoenix facility</li></ul><p>\"Manufacturing has a responsibility to minimize its environmental footprint,\" said VP of Operations Laura Kim. \"These results show that sustainability and productivity can go hand in hand.\"</p>",
+            "summary": "We are pleased to publish our 2025 Sustainability Report, highlighting significant progress toward our environmental goals. Key achievements include a 35% reduction in Scope 1 and Scope 2 carbon emiss"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+            "alt": "Solar panels on an industrial facility roof",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "Laura Kim",
+          "tags": [
+            {
+              "id": "sustainability",
+              "name": "sustainability"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/news/apprenticeship-program-recognition": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-3",
+          "title": "Apex Apprenticeship Program Recognized by U.S. Department of Labor",
+          "path": "/news/apprenticeship-program-recognition",
+          "body": {
+            "processed": "<p>The U.S. Department of Labor has officially recognized the Apex Manufacturing Apprenticeship Program as a Registered Apprenticeship, certifying that our training meets national standards for quality and rigor.</p><h2>Program Overview</h2><p>The four-year program combines paid on-the-job training with related classroom instruction at Sinclair Community College. Apprentices rotate through machining, fabrication, quality inspection, and manufacturing engineering, earning nationally recognized journeyman credentials upon completion.</p><p>Since launching in 2019, the program has graduated 28 apprentices with a 94% retention rate. Starting wages begin at $18/hour and increase to over $32/hour at program completion.</p><p>\"Finding skilled machinists and fabricators is one of the biggest challenges in American manufacturing,\" said HR Director James Park. \"Our apprenticeship program is building the pipeline we need to grow.\"</p>",
+            "summary": "The U.S. Department of Labor has officially recognized the Apex Manufacturing Apprenticeship Program as a Registered Apprenticeship, certifying that our training meets national standards for quality a"
+          },
+          "newsImage": {
+            "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+            "alt": "Manufacturing apprentice working with CNC machine",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "authorName": "James Park",
+          "tags": [
+            {
+              "id": "award",
+              "name": "award"
+            },
+            {
+              "id": "innovation",
+              "name": "innovation"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Apex Precision Manufacturing",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 1974, Apex Precision Manufacturing has grown from a small job shop in Dayton, Ohio into a multi-facility, vertically integrated manufacturer serving the world's most demanding industries.</p><h2>Our History</h2><p>Founder George Tanaka started Apex with a single manual lathe and a commitment to quality that remains at the core of our culture today. Over five decades, we've expanded our capabilities from basic machining to include sheet metal fabrication, investment casting, forging, and complete mechanical assembly.</p><h2>Our Values</h2><ul><li><strong>Quality First</strong> - Zero defects is not a goal, it's an expectation</li><li><strong>Innovation</strong> - Continuous investment in technology and people</li><li><strong>Integrity</strong> - Honest communication and ethical business practices</li><li><strong>Partnership</strong> - We succeed when our customers succeed</li></ul><h2>Leadership</h2><p>Today, Apex is led by second-generation CEO Robert Tanaka and a leadership team with combined experience of over 150 years in precision manufacturing. We remain privately held and debt-free, allowing us to take a long-term view on investments and customer relationships.</p>",
+            "summary": "Founded in 1974, Apex Precision Manufacturing has grown from a small job shop in Dayton, Ohio into a multi-facility, vertically integrated manufacturer serving the world's most demanding industries.Ou"
+          }
+        }
+      }
+    }
+  },
+  "/careers": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-careers",
+          "title": "Careers at Apex",
+          "path": "/careers",
+          "body": {
+            "processed": "<p>Apex Precision Manufacturing offers rewarding careers in a dynamic, technology-driven environment. We are always looking for talented individuals who share our passion for precision and quality.</p><h2>Why Work at Apex?</h2><ul><li>Competitive wages with annual performance reviews</li><li>Comprehensive health, dental, and vision insurance</li><li>401(k) with company match up to 6%</li><li>Tuition reimbursement and ongoing training</li><li>Paid apprenticeship and internship programs</li><li>Clean, modern, climate-controlled facilities</li></ul><h2>Current Openings</h2><p>We are currently hiring across all facilities for CNC machinists, fabricators, quality inspectors, manufacturing engineers, and maintenance technicians. Both experienced professionals and entry-level candidates are encouraged to apply.</p><h2>How to Apply</h2><p>Send your resume to careers@apexprecision.com or apply in person at any of our facility locations during business hours. Veterans and transitioning military personnel are strongly encouraged to apply.</p>",
+            "summary": "Apex Precision Manufacturing offers rewarding careers in a dynamic, technology-driven environment. We are always looking for talented individuals who share our passion for precision and quality.Why Wo"
+          }
+        }
+      }
+    }
+  }
+}

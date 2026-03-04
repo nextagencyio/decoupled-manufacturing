@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Apex Precision Manufacturing",
+          "path": "/homepage",
+          "heroTitle": "Precision Engineered. Globally Trusted.",
+          "heroSubtitle": "Advanced Manufacturing Solutions for Critical Industries",
+          "heroDescription": {
+            "processed": "<p>From aerospace components to medical devices, Apex Precision Manufacturing delivers tight-tolerance parts and assemblies that meet the most demanding specifications. ISO 9001 and AS9100 certified across all facilities.</p>",
+            "summary": "From aerospace components to medical devices, Apex Precision Manufacturing delivers tight-tolerance parts and assemblies that meet the most demanding specifications. ISO 9001 and AS9100 certified acro"
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+            "alt": "CNC machining center producing precision metal parts",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "52",
+              "label": "Years in Business"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-employees",
+              "title": "",
+              "number": "1,200+",
+              "label": "Employees"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-facilities",
+              "title": "",
+              "number": "4",
+              "label": "Facilities"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "30+",
+              "label": "Countries Served"
+            }
+          ],
+          "featuredItemsTitle": "Our Product Lines",
+          "ctaTitle": "Request a Quote",
+          "ctaDescription": {
+            "processed": "<p>Our engineering team is ready to review your specifications and provide a competitive quote. From prototype to full production, we have the capacity and expertise to deliver.</p>",
+            "summary": "Our engineering team is ready to review your specifications and provide a competitive quote. From prototype to full production, we have the capacity and expertise to deliver."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Capabilities"
+        }
+      ]
+    }
+  }
+}

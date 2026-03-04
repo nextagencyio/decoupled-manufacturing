@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeCertifications": {
+      "__typename": "NodeCertificationConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCertification",
+          "id": "cert-1",
+          "title": "ISO 9001:2015",
+          "path": "/certifications/iso-9001",
+          "body": {
+            "processed": "<p>ISO 9001:2015 is the international standard for quality management systems (QMS). Our certification covers the design, manufacture, and delivery of precision machined components, fabricated assemblies, castings, and forgings across all Apex facilities.</p><p>This certification demonstrates our commitment to consistently meeting customer requirements, enhancing satisfaction, and driving continual improvement in our processes.</p>",
+            "summary": "ISO 9001:2015 is the international standard for quality management systems (QMS). Our certification covers the design, manufacture, and delivery of precision machined components, fabricated assemblies"
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Quality management certification document",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "Bureau Veritas",
+          "certNumber": "US-QMS-2024-08471",
+          "validThrough": "December 2027",
+          "scope": "All facilities - Design, manufacture, and delivery of precision components and assemblies"
+        },
+        {
+          "__typename": "NodeCertification",
+          "id": "cert-2",
+          "title": "AS9100 Rev D",
+          "path": "/certifications/as9100",
+          "body": {
+            "processed": "<p>AS9100 Rev D is the internationally recognized quality management standard for the aviation, space, and defense industries. This certification is required by most aerospace OEMs and Tier 1 suppliers, and demonstrates our ability to meet the stringent quality and traceability requirements of these critical industries.</p><p>Our AS9100 certification covers the Dayton and Phoenix facilities, encompassing precision machining, fabrication, and assembly operations for aerospace and defense applications.</p>",
+            "summary": "AS9100 Rev D is the internationally recognized quality management standard for the aviation, space, and defense industries. This certification is required by most aerospace OEMs and Tier 1 suppliers, "
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "alt": "Aerospace manufacturing quality inspection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "SAI Global",
+          "certNumber": "AS-2023-05192",
+          "validThrough": "September 2026",
+          "scope": "Dayton and Phoenix facilities - Precision machining and fabrication for aerospace and defense"
+        },
+        {
+          "__typename": "NodeCertification",
+          "id": "cert-3",
+          "title": "ITAR Registered",
+          "path": "/certifications/itar-registered",
+          "body": {
+            "processed": "<p>Apex Precision Manufacturing is registered with the U.S. State Department under the International Traffic in Arms Regulations (ITAR). This registration authorizes us to manufacture defense articles and provide defense services as defined by the U.S. Munitions List.</p><p>All employees with access to ITAR-controlled data receive regular training on compliance requirements. Our facilities maintain physical and cybersecurity controls that meet NIST SP 800-171 standards.</p>",
+            "summary": "Apex Precision Manufacturing is registered with the U.S. State Department under the International Traffic in Arms Regulations (ITAR). This registration authorizes us to manufacture defense articles an"
+          },
+          "certImage": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Secure defense manufacturing environment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "issuingBody": "U.S. Department of State, DDTC",
+          "certNumber": "M-29847",
+          "validThrough": "July 2027",
+          "scope": "All facilities - Manufacture of defense articles per USML Categories IV, X, and XI"
+        }
+      ]
+    }
+  }
+}

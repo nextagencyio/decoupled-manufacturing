@@ -1,0 +1,151 @@
+{
+  "data": {
+    "nodeFacilities": {
+      "__typename": "NodeFacilityConnection",
+      "nodes": [
+        {
+          "__typename": "NodeFacility",
+          "id": "facility-1",
+          "title": "Dayton Headquarters & Machining Center",
+          "path": "/facilities/headquarters-dayton",
+          "body": {
+            "processed": "<p>Our flagship facility in Dayton, Ohio houses corporate headquarters, engineering, and our primary precision machining operations. This facility was expanded in 2019 with a new 40,000 sq. ft. addition dedicated to 5-axis machining and quality inspection.</p><h2>Equipment</h2><ul><li>22 CNC machining centers (3, 4, and 5-axis)</li><li>14 CNC lathes including Swiss-type</li><li>Zeiss CMM with PH20 scanning probe</li><li>Keyence optical measurement system</li><li>Surface finish measurement and hardness testing</li></ul><p>The Dayton facility operates two shifts, five days a week, with weekend overtime capacity for urgent orders.</p>",
+            "summary": "Our flagship facility in Dayton, Ohio houses corporate headquarters, engineering, and our primary precision machining operations. This facility was expanded in 2019 with a new 40,000 sq. ft. addition "
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+            "alt": "Modern manufacturing facility exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Dayton, Ohio",
+          "squareFootage": "120,000 sq. ft.",
+          "employees": "485",
+          "capabilities": [
+            "5-Axis CNC Milling",
+            "CNC Turning",
+            "Swiss Machining",
+            "CMM Inspection",
+            "Surface Treatment"
+          ],
+          "yearEstablished": "1974"
+        },
+        {
+          "__typename": "NodeFacility",
+          "id": "facility-2",
+          "title": "Phoenix Fabrication & Assembly Center",
+          "path": "/facilities/phoenix-fabrication",
+          "body": {
+            "processed": "<p>Our Phoenix, Arizona facility specializes in sheet metal fabrication, mechanical assembly, and finishing services. Strategically located to serve the growing aerospace and defense industries in the Southwest.</p><h2>Equipment</h2><ul><li>Trumpf 5000 fiber laser cutting system</li><li>Flow waterjet with 5-axis cutting head</li><li>Amada press brakes with robotic bending</li><li>Complete TIG/MIG welding stations</li><li>Automated powder coat line</li></ul><p>The Phoenix facility achieved AS9100 certification in 2018 and processes over 2 million parts annually.</p>",
+            "summary": "Our Phoenix, Arizona facility specializes in sheet metal fabrication, mechanical assembly, and finishing services. Strategically located to serve the growing aerospace and defense industries in the So"
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80",
+            "alt": "Interior of a fabrication facility with machinery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Phoenix, Arizona",
+          "squareFootage": "85,000 sq. ft.",
+          "employees": "310",
+          "capabilities": [
+            "Laser Cutting",
+            "Waterjet Cutting",
+            "CNC Bending",
+            "Welding",
+            "Powder Coating",
+            "Assembly"
+          ],
+          "yearEstablished": "2003"
+        },
+        {
+          "__typename": "NodeFacility",
+          "id": "facility-3",
+          "title": "Houston Casting & Forging Facility",
+          "path": "/facilities/houston-casting",
+          "body": {
+            "processed": "<p>Our Houston, Texas facility houses our investment casting foundry and closed-die forging operations. Located near the energy industry hub, this facility serves oil and gas, petrochemical, and marine customers worldwide.</p><h2>Equipment</h2><ul><li>Investment casting capacity to 50 lbs</li><li>Vacuum induction melting for superalloys</li><li>3,000-ton forging press</li><li>Complete heat treatment capability</li><li>Non-destructive testing (X-ray, FPI, MPI)</li></ul>",
+            "summary": "Our Houston, Texas facility houses our investment casting foundry and closed-die forging operations. Located near the energy industry hub, this facility serves oil and gas, petrochemical, and marine c"
+          },
+          "facilityImage": {
+            "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80",
+            "alt": "Industrial foundry with glowing molten metal",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "location": "Houston, Texas",
+          "squareFootage": "95,000 sq. ft.",
+          "employees": "275",
+          "capabilities": [
+            "Investment Casting",
+            "Closed-Die Forging",
+            "Heat Treatment",
+            "NDT Inspection",
+            "Alloy Development"
+          ],
+          "yearEstablished": "1998"
+        }
+      ]
+    }
+  }
+}
