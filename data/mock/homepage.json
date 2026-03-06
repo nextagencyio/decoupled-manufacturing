@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "52",
+              "number": "52", "value": "52",
               "label": "Years in Business"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-employees",
               "title": "",
-              "number": "1,200+",
+              "number": "1,200+", "value": "1,200+",
               "label": "Employees"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-facilities",
               "title": "",
-              "number": "4",
+              "number": "4", "value": "4",
               "label": "Facilities"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-countries",
               "title": "",
-              "number": "30+",
+              "number": "30+", "value": "30+",
               "label": "Countries Served"
             }
           ],
