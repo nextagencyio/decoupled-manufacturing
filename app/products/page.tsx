@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_PRODUCT_LINES } from '@/lib/queries'
 import { ProductLinesData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getProductLines() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<ProductLinesData>({
-      query: GET_PRODUCT_LINES,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_PRODUCT_LINES, { first: 50 })
     return data?.nodeProductLines?.nodes || []
   } catch (error) {
     console.error('Error fetching product lines:', error)
