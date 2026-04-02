@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getProductLines() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PRODUCT_LINES, { first: 50 })
+    const data = await client.raw(GET_PRODUCT_LINES, { first: 50 })
     return data?.nodeProductLines?.nodes || []
   } catch (error) {
     console.error('Error fetching product lines:', error)
@@ -55,7 +55,7 @@ export default async function ProductLinesPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <ProductLineCard key={item.id} item={item} />
               ))}
             </div>
